@@ -15,7 +15,34 @@
 <div id="main-zone">
 
   <div class="scene-item">
-    <img src="2.png" id="main-picture" alt="Matrix Image">
+    <div id="radio-ui">
+
+      <div class="item-card">
+        <h2 id="item-name"></h2>
+        <div id="item-rarity"></div>
+        <hr>
+        <p id="item-desc"></p>
+        <div class="item-price">
+          <span class="currency">€$</span>
+          <span id="item-price"></span>
+        </div>
+      </div>
+
+      <div class="section-bar">RADIO</div>
+
+      <div class="radio-zone">
+        <div class="cover-box">
+          <div id="cover-art"></div>
+          <div class="cover-meta">
+            <div>FRAME TUNED: <span id="meta-tuned"></span></div>
+            <div>SPACE TYPE: <span id="meta-type"></span></div>
+            <div>LAND: <span id="meta-land"></span></div>
+          </div>
+        </div>
+        <ul id="station-list"></ul>
+      </div>
+
+    </div>
   </div>
 
   <div class="scene-item">
@@ -26,5 +53,6 @@
 
 </div>
 
+<script src="env.js"></script>
 </body>
 </html>
